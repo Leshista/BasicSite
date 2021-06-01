@@ -1,10 +1,18 @@
 body {
     background-color: #000;
     font-family: "Helvetica Neue", arial, sans-serif;
+    box-sizing: border-box;
 }
 a {
     text-decoration: none;
     color: #fff;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 29px 136px 21px 134px;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 14px;
 }
 .container {
     width: 1366px;
@@ -40,11 +48,6 @@ a {
     }
 }
 .header-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 29px 136px 21px 134px;
-    background-color: rgba(0, 0, 0, 0.9);
-    font-size: 14px;
     &__logo {
     }
     &__item {
@@ -82,21 +85,34 @@ a {
     margin-top: 63px;
 }
 .footer-nav {
+    background-color: #101011;
     &__item {
     }
 
     &__list {
+        list-style: none;
     }
 
     &__title {
+        color: #fff;
     }
 
     &__list-item {
+        a {
+            color: #999999;
+        }
     }
 
     &__social {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 70px;
     }
-
+    &__sociallink {
+        list-style-type: none;
+    }
     &__copy {
+        color: #585858;
+        margin-top: 25px;
     }
 }
