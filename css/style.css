@@ -73,3 +73,43 @@ a {
   background-color: rgba(0, 0, 0, 0.9);
   font-size: 14px;
 }
+
+.main {
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(/img/articles-background.png);
+}
+
+.article {
+  padding: 0 128px;
+  line-height: 24px;
+}
+
+.article__title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.article__text {
+  font-size: 15px;
+}
+
+.article__text_italic {
+  font-style: italic;
+  font-size: 22px;
+}
+
+.left-article {
+  width: 443px;
+}
+
+.right-article {
+  width: 561px;
+  color: #fff;
+}
+
+.article__text_margin-top {
+  margin-top: 63px;
+}
