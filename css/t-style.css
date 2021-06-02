@@ -1,3 +1,4 @@
+/* =====CSS RESET=====*/
 html,
 body,
 div,
@@ -127,4 +128,31 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/* =====BASE=====*/
+body {
+  color: #fff;
+  background-color: #000;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-size: 15px;
+}
+
+body .wrapper {
+  width: 1120px;
+  height: 100%;
+}
+
+/* =====HEADER=====*/
+.page-header {
+  height: 66px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.page-header .logo {
+  float: left;
+}
+
+.page-header .main-nav {
+  float: right;
 }
