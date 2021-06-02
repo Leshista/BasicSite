@@ -1,4 +1,4 @@
-## 1 of 9 projects of the 
+## The 1st of 9 projects of the 
 # The Result-Oriented Web Developer Course - BOOTCAMP 2021
 ## course, if we don't count pure HTML one
 ---

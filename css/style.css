@@ -149,4 +149,9 @@ nav {
 .footer-nav__copy {
   color: #585858;
   margin-top: 25px;
+  margin-bottom: -15px;
+}
+
+.footer-nav__copy a {
+  color: #585858;
 }
