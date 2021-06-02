@@ -217,3 +217,13 @@ body .wrapper {
           box-sizing: border-box;
   margin: 0 auto;
 }
+
+/*====Articles====*/
+.articles {
+  background: white;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, white 0%, white 50%, black 50%, black 100%, black 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
