@@ -141,6 +141,11 @@ body {
   line-height: 1.4;
 }
 
+body a {
+  color: #fff;
+  text-decoration: none;
+}
+
 body .wrapper {
   width: 1120px;
   height: 100%;
@@ -176,8 +181,6 @@ body .wrapper {
 }
 
 .page-header .main-nav ul li a {
-  color: #fff;
-  text-decoration: none;
   line-height: 66px;
 }
 
@@ -277,4 +280,67 @@ body .wrapper {
 .articles .wrapper article p.text {
   font-weight: 300;
   margin-bottom: 60px;
+}
+
+/*=====FOOTER=====*/
+.page-footer {
+  background-color: #111111;
+  padding-top: 25px;
+}
+
+.page-footer .wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.page-footer .wrapper .footer-col {
+  width: 25%;
+  float: left;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.page-footer .wrapper .footer-col h3::after {
+  content: " ";
+  font-size: 0;
+  display: block;
+  width: 75%;
+  height: 1px;
+  background-color: #292929;
+  margin: 15px 0;
+}
+
+.page-footer .wrapper .footer-col a {
+  color: #999;
+}
+
+.page-footer .wrapper .social ul {
+  margin-bottom: 32px;
+}
+
+.page-footer .wrapper .social ul li {
+  display: inline-block;
+}
+
+.page-footer .wrapper .social ul li a {
+  color: #585858;
+}
+
+.page-footer .wrapper .social ul li a i {
+  color: #fff;
+  display: block;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  border-radius: 50%;
+  background-color: #000;
+  text-align: center;
+}
+
+.page-footer .wrapper .social .copy,
+.page-footer .wrapper .social .linkback {
+  color: #585858;
+  display: block;
+  margin-bottom: 10px;
 }
