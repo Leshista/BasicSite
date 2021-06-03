@@ -45,12 +45,22 @@ nav {
         width: 166px;
         height: 48px;
         margin-top: 28px;
+        &:hover {
+            box-sizing: border-box;
+            background-color: #8d0300;
+            border: 1px solid #ca0500;
+            cursor: pointer;
+            /* I have to make the whole button operate like the link it has, but I don't know how to do it yet */
+        }
     }
 }
 .header-nav {
     &__logo {
     }
     &__item {
+        a:hover {
+            color: #cd221e;
+        }
     }
 }
 .main {
@@ -100,6 +110,9 @@ nav {
     &__list-item {
         a {
             color: #999999;
+            &:hover {
+                color: #fff;
+            }
         }
     }
 
@@ -110,6 +123,7 @@ nav {
     }
     &__sociallink {
         list-style-type: none;
+        /* I have to have them change color on hover, but I cannot do this, because I imported them as images */
     }
     &__copy {
         color: #585858;
@@ -117,6 +131,9 @@ nav {
         margin-bottom: -15px;
         a {
             color: #585858;
+            &:hover {
+                color: #ca0500;
+            }
         }
     }
 }

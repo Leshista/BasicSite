@@ -175,6 +175,9 @@ body {
                 color: #585858;
                 display: block;
                 margin-bottom: 10px;
+                &:hover {
+                    color: #ca0500;
+                }
             }
         }
     }

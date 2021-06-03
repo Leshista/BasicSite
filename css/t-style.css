@@ -344,3 +344,8 @@ body .wrapper {
   display: block;
   margin-bottom: 10px;
 }
+
+.page-footer .wrapper .social .copy:hover,
+.page-footer .wrapper .social .linkback:hover {
+  color: #ca0500;
+}
