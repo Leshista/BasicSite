@@ -138,6 +138,7 @@ body {
   font-size: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  line-height: 1.4;
 }
 
 body .wrapper {
@@ -224,6 +225,56 @@ body .wrapper {
   /* Old browsers */
   /* FF3.6-15 */
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, white 0%, white 50%, black 50%, black 100%, black 100%);
+  background: linear-gradient(95deg, white 0%, white 50%, #1c1c1c 50%, #1c1c1c 100%, #1c1c1c 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.articles .wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.articles .wrapper article {
+  width: 50%;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 60px;
+}
+
+.articles .wrapper article:first-of-type {
+  padding-right: 65px;
+  color: #000;
+}
+
+.articles .wrapper article:last-of-type {
+  padding-left: 65px;
+}
+
+.articles .wrapper article h2 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.articles .wrapper article h2::after {
+  content: " ";
+  font-size: 0;
+  display: block;
+  height: 2px;
+  width: 38px;
+  background-color: #ca0500;
+  margin: 25px 0 28px;
+}
+
+.articles .wrapper article .quote {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.articles .wrapper article p.text {
+  font-weight: 300;
+  margin-bottom: 60px;
 }
